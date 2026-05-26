@@ -1,0 +1,916 @@
+{
+  "datasets": [
+    {
+      "class_counts": {
+        "0": 570,
+        "1": 178
+      },
+      "file": "data/fast25/blood-transfusion.joblib",
+      "metadata": {
+        "feature_count": 4,
+        "openml_id": 1464,
+        "openml_name": "blood-transfusion-service-center",
+        "original_classes": [
+          "1",
+          "2"
+        ],
+        "original_counts": {
+          "1": 570,
+          "2": 178
+        },
+        "sample_count": 748,
+        "target": "Class"
+      },
+      "n_features": 4,
+      "n_samples": 748,
+      "name": "blood-transfusion",
+      "positive_class": "1 (minority)",
+      "sha256": "5fb846d90474fd0af745dbdec1beabcdf6c98d8197472e0f2b9cc09547062ee9",
+      "source": "openml"
+    },
+    {
+      "class_counts": {
+        "0": 458,
+        "1": 241
+      },
+      "file": "data/fast25/breast-w.joblib",
+      "metadata": {
+        "feature_count": 9,
+        "openml_id": 15,
+        "openml_name": "breast-w",
+        "original_classes": [
+          "benign",
+          "malignant"
+        ],
+        "original_counts": {
+          "benign": 458,
+          "malignant": 241
+        },
+        "sample_count": 699,
+        "target": "Class"
+      },
+      "n_features": 9,
+      "n_samples": 699,
+      "name": "breast-w",
+      "positive_class": "1 (minority)",
+      "sha256": "198d0566a1bb17bde391d875733c2c8032db66dfef340e45aa1ee184076975e7",
+      "source": "openml"
+    },
+    {
+      "class_counts": {
+        "0": 500,
+        "1": 268
+      },
+      "file": "data/fast25/diabetes.joblib",
+      "metadata": {
+        "feature_count": 8,
+        "openml_id": 37,
+        "openml_name": "diabetes",
+        "original_classes": [
+          "tested_negative",
+          "tested_positive"
+        ],
+        "original_counts": {
+          "tested_negative": 500,
+          "tested_positive": 268
+        },
+        "sample_count": 768,
+        "target": "class"
+      },
+      "n_features": 8,
+      "n_samples": 768,
+      "name": "diabetes",
+      "positive_class": "1 (minority)",
+      "sha256": "c094726167ad19798929cb8b6312565cb72c4ada6677494603239c2ae004a408",
+      "source": "openml"
+    },
+    {
+      "class_counts": {
+        "0": 316,
+        "1": 20
+      },
+      "file": "data/fast25/ecoli.joblib",
+      "metadata": {
+        "feature_count": 7,
+        "one_vs_rest_positive_class": "om",
+        "openml_id": 39,
+        "openml_name": "ecoli",
+        "original_classes": [
+          "cp",
+          "im",
+          "pp",
+          "imU",
+          "om",
+          "omL",
+          "imL",
+          "imS"
+        ],
+        "original_counts": {
+          "cp": 143,
+          "im": 77,
+          "imL": 2,
+          "imS": 2,
+          "imU": 35,
+          "om": 20,
+          "omL": 5,
+          "pp": 52
+        },
+        "sample_count": 336,
+        "target": "class"
+      },
+      "n_features": 7,
+      "n_samples": 336,
+      "name": "ecoli",
+      "positive_class": "1 (minority)",
+      "sha256": "62f5aed4b7d2c6c07fdbc5573c549920fda0e01f4fd4c3ca0a84f5c4263a09d4",
+      "source": "openml"
+    },
+    {
+      "class_counts": {
+        "0": 225,
+        "1": 81
+      },
+      "file": "data/fast25/haberman.joblib",
+      "metadata": {
+        "feature_count": 3,
+        "openml_id": 43,
+        "openml_name": "haberman",
+        "original_classes": [
+          "1",
+          "2"
+        ],
+        "original_counts": {
+          "1": 225,
+          "2": 81
+        },
+        "sample_count": 306,
+        "target": "Survival_status"
+      },
+      "n_features": 3,
+      "n_samples": 306,
+      "name": "haberman",
+      "positive_class": "1 (minority)",
+      "sha256": "970793509af7e4718e51f0aa470626da8f366a721f429f97ae21017ab53a4d2f",
+      "source": "openml"
+    },
+    {
+      "class_counts": {
+        "0": 225,
+        "1": 126
+      },
+      "file": "data/fast25/ionosphere.joblib",
+      "metadata": {
+        "feature_count": 33,
+        "openml_id": 59,
+        "openml_name": "ionosphere",
+        "original_classes": [
+          "b",
+          "g"
+        ],
+        "original_counts": {
+          "b": 126,
+          "g": 225
+        },
+        "sample_count": 351,
+        "target": "class"
+      },
+      "n_features": 33,
+      "n_samples": 351,
+      "name": "ionosphere",
+      "positive_class": "1 (minority)",
+      "sha256": "69c1785365f27d08726a1f2dd83d53bd2aa492b3c7867dbb5919d075022cc3ee",
+      "source": "openml"
+    },
+    {
+      "class_counts": {
+        "0": 259,
+        "1": 77
+      },
+      "file": "data/fast25/keel-ecoli1.joblib",
+      "metadata": {
+        "feature_count": 7,
+        "keel_columns": [
+          "Mcg",
+          "Gvh",
+          "Lip",
+          "Chg",
+          "Aac",
+          "Alm1",
+          "Alm2",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/ecoli1/ecoli1.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 259,
+          "positive": 77
+        },
+        "sample_count": 336
+      },
+      "n_features": 7,
+      "n_samples": 336,
+      "name": "keel-ecoli1",
+      "positive_class": "1 (minority)",
+      "sha256": "6e6ce24b6cbcdad88bb1169dd8176bfc336697d8d8f989b97cf0846be7ce5c9b",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 284,
+        "1": 52
+      },
+      "file": "data/fast25/keel-ecoli2.joblib",
+      "metadata": {
+        "feature_count": 7,
+        "keel_columns": [
+          "Mcg",
+          "Gvh",
+          "Lip",
+          "Chg",
+          "Aac",
+          "Alm1",
+          "Alm2",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/ecoli2/ecoli2.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 284,
+          "positive": 52
+        },
+        "sample_count": 336
+      },
+      "n_features": 7,
+      "n_samples": 336,
+      "name": "keel-ecoli2",
+      "positive_class": "1 (minority)",
+      "sha256": "2e3b8147e54a1bac17fab91c004361a2d820de91d3c13f0a40da345893b8a22b",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 301,
+        "1": 35
+      },
+      "file": "data/fast25/keel-ecoli3.joblib",
+      "metadata": {
+        "feature_count": 7,
+        "keel_columns": [
+          "Mcg",
+          "Gvh",
+          "Lip",
+          "Chg",
+          "Aac",
+          "Alm1",
+          "Alm2",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/ecoli3/ecoli3.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 301,
+          "positive": 35
+        },
+        "sample_count": 336
+      },
+      "n_features": 7,
+      "n_samples": 336,
+      "name": "keel-ecoli3",
+      "positive_class": "1 (minority)",
+      "sha256": "05349130a54edc8226c73decd8d0fd754041504ff146af394411211cc2850edc",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 144,
+        "1": 70
+      },
+      "file": "data/fast25/keel-glass0.joblib",
+      "metadata": {
+        "feature_count": 9,
+        "keel_columns": [
+          "RI",
+          "Na",
+          "Mg",
+          "Al",
+          "Si",
+          "K",
+          "Ca",
+          "Ba",
+          "Fe",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/glass0/glass0.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 144,
+          "positive": 70
+        },
+        "sample_count": 214
+      },
+      "n_features": 9,
+      "n_samples": 214,
+      "name": "keel-glass0",
+      "positive_class": "1 (minority)",
+      "sha256": "84557ca8d5c85801636dca2da323b1ad7dcbf954872ffedb24d0a0e27bf5cfb8",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 138,
+        "1": 76
+      },
+      "file": "data/fast25/keel-glass1.joblib",
+      "metadata": {
+        "feature_count": 9,
+        "keel_columns": [
+          "RI",
+          "Na",
+          "Mg",
+          "Al",
+          "Si",
+          "K",
+          "Ca",
+          "Ba",
+          "Fe",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/glass1/glass1.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 138,
+          "positive": 76
+        },
+        "sample_count": 214
+      },
+      "n_features": 9,
+      "n_samples": 214,
+      "name": "keel-glass1",
+      "positive_class": "1 (minority)",
+      "sha256": "3231fd19909fba7499100cf920592ed8e69a65c98d13687a08a1ec9e3495ed8c",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 197,
+        "1": 17
+      },
+      "file": "data/fast25/keel-glass2.joblib",
+      "metadata": {
+        "feature_count": 9,
+        "keel_columns": [
+          "RI",
+          "Na",
+          "Mg",
+          "Al",
+          "Si",
+          "K",
+          "Ca",
+          "Ba",
+          "Fe",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/glass2/glass2.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 197,
+          "positive": 17
+        },
+        "sample_count": 214
+      },
+      "n_features": 9,
+      "n_samples": 214,
+      "name": "keel-glass2",
+      "positive_class": "1 (minority)",
+      "sha256": "5cf98c654df16c0fe145176cd20221737afc11168d494212d8c8322cc78d56c1",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 201,
+        "1": 13
+      },
+      "file": "data/fast25/keel-glass4.joblib",
+      "metadata": {
+        "feature_count": 9,
+        "keel_columns": [
+          "RI",
+          "Na",
+          "Mg",
+          "Al",
+          "Si",
+          "K",
+          "Ca",
+          "Ba",
+          "Fe",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/glass4/glass4.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 201,
+          "positive": 13
+        },
+        "sample_count": 214
+      },
+      "n_features": 9,
+      "n_samples": 214,
+      "name": "keel-glass4",
+      "positive_class": "1 (minority)",
+      "sha256": "a0479f4e0a7dbcb9ce632fec70581fb04453e738848d58e4634bfe77be763356",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 205,
+        "1": 9
+      },
+      "file": "data/fast25/keel-glass5.joblib",
+      "metadata": {
+        "feature_count": 9,
+        "keel_columns": [
+          "RI",
+          "Na",
+          "Mg",
+          "Al",
+          "Si",
+          "K",
+          "Ca",
+          "Ba",
+          "Fe",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/glass5/glass5.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 205,
+          "positive": 9
+        },
+        "sample_count": 214
+      },
+      "n_features": 9,
+      "n_samples": 214,
+      "name": "keel-glass5",
+      "positive_class": "1 (minority)",
+      "sha256": "0d2bcd458b8f7cab480a487a3a26f5991c06ca45b086e9abc1116e24e3671d77",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 185,
+        "1": 29
+      },
+      "file": "data/fast25/keel-glass6.joblib",
+      "metadata": {
+        "feature_count": 9,
+        "keel_columns": [
+          "RI",
+          "Na",
+          "Mg",
+          "Al",
+          "Si",
+          "K",
+          "Ca",
+          "Ba",
+          "Fe",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/glass6/glass6.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 185,
+          "positive": 29
+        },
+        "sample_count": 214
+      },
+      "n_features": 9,
+      "n_samples": 214,
+      "name": "keel-glass6",
+      "positive_class": "1 (minority)",
+      "sha256": "bf07d1b5f6c361c267973ef4e8114bdb43deb6b3c8654196952030e18722538a",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 4913,
+        "1": 559
+      },
+      "file": "data/fast25/keel-page-blocks0.joblib",
+      "metadata": {
+        "feature_count": 10,
+        "keel_columns": [
+          "Height",
+          "Lenght",
+          "Area",
+          "Eccen",
+          "P_black",
+          "P_and",
+          "Mean_tr",
+          "Blackpix",
+          "Blackand",
+          "Wb_trans",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/page-blocks0/page-blocks0.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 4913,
+          "positive": 559
+        },
+        "sample_count": 5472
+      },
+      "n_features": 10,
+      "n_samples": 5472,
+      "name": "keel-page-blocks0",
+      "positive_class": "1 (minority)",
+      "sha256": "3666e54d3cdcbca4a4e14209f496dbe48ccc1e033a9478298d9aa7ecf7c058c8",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 647,
+        "1": 199
+      },
+      "file": "data/fast25/keel-vehicle0.joblib",
+      "metadata": {
+        "feature_count": 18,
+        "keel_columns": [
+          "Compactness",
+          "Circularity",
+          "Distance_circularity",
+          "Radius_ratio",
+          "Praxis_aspect_ratio",
+          "Max_length_aspect_ratio",
+          "Scatter_ratio",
+          "Elongatedness",
+          "Praxis_rectangular",
+          "Length_rectangular",
+          "Major_variance",
+          "Minor_variance",
+          "Gyration_radius",
+          "Major_skewness",
+          "Minor_skewness",
+          "Minor_kurtosis",
+          "Major_kurtosis",
+          "Hollows_ratio",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/vehicle0/vehicle0.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 647,
+          "positive": 199
+        },
+        "sample_count": 846
+      },
+      "n_features": 18,
+      "n_samples": 846,
+      "name": "keel-vehicle0",
+      "positive_class": "1 (minority)",
+      "sha256": "ab3987f86c7a05364bf95e80c6bc13d18517d75f70a959457c4bebe6c6c09876",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 629,
+        "1": 217
+      },
+      "file": "data/fast25/keel-vehicle1.joblib",
+      "metadata": {
+        "feature_count": 18,
+        "keel_columns": [
+          "Compactness",
+          "Circularity",
+          "Distance_circularity",
+          "Radius_ratio",
+          "Praxis_aspect_ratio",
+          "Max_length_aspect_ratio",
+          "Scatter_ratio",
+          "Elongatedness",
+          "Praxis_rectangular",
+          "Length_rectangular",
+          "Major_variance",
+          "Minor_variance",
+          "Gyration_radius",
+          "Major_skewness",
+          "Minor_skewness",
+          "Minor_kurtosis",
+          "Major_kurtosis",
+          "Hollows_ratio",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/vehicle1/vehicle1.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 629,
+          "positive": 217
+        },
+        "sample_count": 846
+      },
+      "n_features": 18,
+      "n_samples": 846,
+      "name": "keel-vehicle1",
+      "positive_class": "1 (minority)",
+      "sha256": "650e210415691fc7122f888e981a5a68fe6f8c129844dd8ab9896eecabeaa5f9",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 628,
+        "1": 218
+      },
+      "file": "data/fast25/keel-vehicle2.joblib",
+      "metadata": {
+        "feature_count": 18,
+        "keel_columns": [
+          "Compactness",
+          "Circularity",
+          "Distance_circularity",
+          "Radius_ratio",
+          "Praxis_aspect_ratio",
+          "Max_length_aspect_ratio",
+          "Scatter_ratio",
+          "Elongatedness",
+          "Praxis_rectangular",
+          "Length_rectangular",
+          "Major_variance",
+          "Minor_variance",
+          "Gyration_radius",
+          "Major_skewness",
+          "Minor_skewness",
+          "Minor_kurtosis",
+          "Major_kurtosis",
+          "Hollows_ratio",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/vehicle2/vehicle2.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 628,
+          "positive": 218
+        },
+        "sample_count": 846
+      },
+      "n_features": 18,
+      "n_samples": 846,
+      "name": "keel-vehicle2",
+      "positive_class": "1 (minority)",
+      "sha256": "30bc2a619399fa53704a6ac5382998cdde65dd34073bd632677a5ca8b195e96f",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 1055,
+        "1": 429
+      },
+      "file": "data/fast25/keel-yeast1.joblib",
+      "metadata": {
+        "feature_count": 8,
+        "keel_columns": [
+          "Mcg",
+          "Gvh",
+          "Alm",
+          "Mit",
+          "Erl",
+          "real",
+          "Vac",
+          "Nuc",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/yeast1/yeast1.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 1055,
+          "positive": 429
+        },
+        "sample_count": 1484
+      },
+      "n_features": 8,
+      "n_samples": 1484,
+      "name": "keel-yeast1",
+      "positive_class": "1 (minority)",
+      "sha256": "51784c9818067f2bb2ce3a00709bed86f88397c32cea8e86af08fe0de41b5f10",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 1321,
+        "1": 163
+      },
+      "file": "data/fast25/keel-yeast3.joblib",
+      "metadata": {
+        "feature_count": 8,
+        "keel_columns": [
+          "Mcg",
+          "Gvh",
+          "Alm",
+          "Mit",
+          "Erl",
+          "real",
+          "Vac",
+          "Nuc",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/yeast3/yeast3.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 1321,
+          "positive": 163
+        },
+        "sample_count": 1484
+      },
+      "n_features": 8,
+      "n_samples": 1484,
+      "name": "keel-yeast3",
+      "positive_class": "1 (minority)",
+      "sha256": "771ed57b8b10dab2cee3e079a975fe7eec7bfb1b314619ea0ee7819c15c4b884",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 1433,
+        "1": 51
+      },
+      "file": "data/fast25/keel-yeast4.joblib",
+      "metadata": {
+        "feature_count": 8,
+        "keel_columns": [
+          "Mcg",
+          "Gvh",
+          "Alm",
+          "Mit",
+          "Erl",
+          "real",
+          "Vac",
+          "Nuc",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/yeast4/yeast4.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 1433,
+          "positive": 51
+        },
+        "sample_count": 1484
+      },
+      "n_features": 8,
+      "n_samples": 1484,
+      "name": "keel-yeast4",
+      "positive_class": "1 (minority)",
+      "sha256": "19a41502917831c08306daf2528873ace1882f7332921314683e65b30dd226d5",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 1440,
+        "1": 44
+      },
+      "file": "data/fast25/keel-yeast5.joblib",
+      "metadata": {
+        "feature_count": 8,
+        "keel_columns": [
+          "Mcg",
+          "Gvh",
+          "Alm",
+          "Mit",
+          "Erl",
+          "real",
+          "Vac",
+          "Nuc",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/yeast5/yeast5.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 1440,
+          "positive": 44
+        },
+        "sample_count": 1484
+      },
+      "n_features": 8,
+      "n_samples": 1484,
+      "name": "keel-yeast5",
+      "positive_class": "1 (minority)",
+      "sha256": "df67bd94139059ed81f942d756b3da0df61eb310e2867c23758d5b221a075181",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 1449,
+        "1": 35
+      },
+      "file": "data/fast25/keel-yeast6.joblib",
+      "metadata": {
+        "feature_count": 8,
+        "keel_columns": [
+          "Mcg",
+          "Gvh",
+          "Alm",
+          "Mit",
+          "Erl",
+          "real",
+          "Vac",
+          "Nuc",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/yeast6/yeast6.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 1449,
+          "positive": 35
+        },
+        "sample_count": 1484
+      },
+      "n_features": 8,
+      "n_samples": 1484,
+      "name": "keel-yeast6",
+      "positive_class": "1 (minority)",
+      "sha256": "5c99fcafd8d4ff049f0590cfc6d4d41e1e58f2e502e71435254cbd24a35525b3",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 111,
+        "1": 97
+      },
+      "file": "data/fast25/sonar.joblib",
+      "metadata": {
+        "feature_count": 60,
+        "openml_id": 40,
+        "openml_name": "sonar",
+        "original_classes": [
+          "Rock",
+          "Mine"
+        ],
+        "original_counts": {
+          "Mine": 111,
+          "Rock": 97
+        },
+        "sample_count": 208,
+        "target": "Class"
+      },
+      "n_features": 60,
+      "n_samples": 208,
+      "name": "sonar",
+      "positive_class": "1 (minority)",
+      "sha256": "9a4a30b3694be08a43f599ff66277600eb5b94e070dc18c670387ae54ad4a93f",
+      "source": "openml"
+    }
+  ],
+  "description": "The 25 binary imbalanced datasets used in the ESWA manuscript experiments; class 1 is the minority/positive class.",
+  "suite": "fast25_eswa_manuscript"
+}

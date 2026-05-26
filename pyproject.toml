@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pste-fol-reproducibility"
+version = "0.1.0"
+description = "Standalone PSTE and Fast Outward Ladder implementation with ESWA manuscript reproducibility assets."
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "pandas",
+  "scipy",
+  "scikit-learn",
+  "imbalanced-learn",
+  "joblib",
+  "tqdm",
+]
+
+[tool.setuptools.packages.find]
+include = ["pste_fol*"]
