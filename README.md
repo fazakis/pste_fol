@@ -1,4 +1,4 @@
-# PSTE + Fast Outward Ladder reproducibility repository
+# PSTE + Fast Outward Ladder oversampling algorithms repository
 
 This folder is the standalone implementation repository for PSTE + FOL algoritm.
 It contains:
@@ -8,10 +8,6 @@ It contains:
 - runnable oversampler and imbalance-ensemble rival baselines;
 - the 25 packaged datasets used in the manuscript experiments; and
 - packaged reference result tables used to check the reported manuscript numbers.
-
-The code in this folder is intentionally self-contained. `PSTEClassifier` and
-`FastOutwardLadderOversampler` do **not** import or inherit from any exploratory
-ancestor classes in the parent research repository.
 
 ## Repository layout
 
