@@ -1,0 +1,908 @@
+{
+  "auxiliary_category7": [
+    "credit-g",
+    "haberman",
+    "keel-abalone9-18",
+    "keel-flare-F",
+    "openml-378-ipums_la_99-small",
+    "openml-40664-car-evaluation",
+    "tic-tac-toe"
+  ],
+  "datasets": [
+    {
+      "class_counts": {
+        "0": 570,
+        "1": 178
+      },
+      "file": "data/bestangle25/blood-transfusion.joblib",
+      "metadata": {
+        "feature_count": 4,
+        "openml_id": 1464,
+        "openml_name": "blood-transfusion-service-center",
+        "original_classes": [
+          "1",
+          "2"
+        ],
+        "original_counts": {
+          "1": 570,
+          "2": 178
+        },
+        "sample_count": 748,
+        "target": "Class"
+      },
+      "n_features": 4,
+      "n_samples": 748,
+      "name": "blood-transfusion",
+      "positive_class": "1 (minority)",
+      "sha256": "5fb846d90474fd0af745dbdec1beabcdf6c98d8197472e0f2b9cc09547062ee9",
+      "source": "openml"
+    },
+    {
+      "class_counts": {
+        "0": 700,
+        "1": 300
+      },
+      "file": "data/bestangle25/credit-g.joblib",
+      "metadata": {
+        "feature_count": 20,
+        "openml_id": 31,
+        "openml_name": "credit-g",
+        "original_classes": [
+          "good",
+          "bad"
+        ],
+        "original_counts": {
+          "bad": 300,
+          "good": 700
+        },
+        "sample_count": 1000,
+        "target": "class"
+      },
+      "n_features": 20,
+      "n_samples": 1000,
+      "name": "credit-g",
+      "positive_class": "1 (minority)",
+      "sha256": "24991f1e7bb54836c2a25c032aa18ec99898080af8099dadb3488d77f2b59fc6",
+      "source": "openml"
+    },
+    {
+      "class_counts": {
+        "0": 500,
+        "1": 268
+      },
+      "file": "data/bestangle25/diabetes.joblib",
+      "metadata": {
+        "feature_count": 8,
+        "openml_id": 37,
+        "openml_name": "diabetes",
+        "original_classes": [
+          "tested_negative",
+          "tested_positive"
+        ],
+        "original_counts": {
+          "tested_negative": 500,
+          "tested_positive": 268
+        },
+        "sample_count": 768,
+        "target": "class"
+      },
+      "n_features": 8,
+      "n_samples": 768,
+      "name": "diabetes",
+      "positive_class": "1 (minority)",
+      "sha256": "c094726167ad19798929cb8b6312565cb72c4ada6677494603239c2ae004a408",
+      "source": "openml"
+    },
+    {
+      "class_counts": {
+        "0": 316,
+        "1": 20
+      },
+      "file": "data/bestangle25/ecoli.joblib",
+      "metadata": {
+        "feature_count": 7,
+        "one_vs_rest_positive_class": "om",
+        "openml_id": 39,
+        "openml_name": "ecoli",
+        "original_classes": [
+          "cp",
+          "im",
+          "pp",
+          "imU",
+          "om",
+          "omL",
+          "imL",
+          "imS"
+        ],
+        "original_counts": {
+          "cp": 143,
+          "im": 77,
+          "imL": 2,
+          "imS": 2,
+          "imU": 35,
+          "om": 20,
+          "omL": 5,
+          "pp": 52
+        },
+        "sample_count": 336,
+        "target": "class"
+      },
+      "n_features": 7,
+      "n_samples": 336,
+      "name": "ecoli",
+      "positive_class": "1 (minority)",
+      "sha256": "62f5aed4b7d2c6c07fdbc5573c549920fda0e01f4fd4c3ca0a84f5c4263a09d4",
+      "source": "openml"
+    },
+    {
+      "class_counts": {
+        "0": 225,
+        "1": 81
+      },
+      "file": "data/bestangle25/haberman.joblib",
+      "metadata": {
+        "feature_count": 3,
+        "openml_id": 43,
+        "openml_name": "haberman",
+        "original_classes": [
+          "1",
+          "2"
+        ],
+        "original_counts": {
+          "1": 225,
+          "2": 81
+        },
+        "sample_count": 306,
+        "target": "Survival_status"
+      },
+      "n_features": 3,
+      "n_samples": 306,
+      "name": "haberman",
+      "positive_class": "1 (minority)",
+      "sha256": "970793509af7e4718e51f0aa470626da8f366a721f429f97ae21017ab53a4d2f",
+      "source": "openml"
+    },
+    {
+      "class_counts": {
+        "0": 225,
+        "1": 126
+      },
+      "file": "data/bestangle25/ionosphere.joblib",
+      "metadata": {
+        "feature_count": 33,
+        "openml_id": 59,
+        "openml_name": "ionosphere",
+        "original_classes": [
+          "b",
+          "g"
+        ],
+        "original_counts": {
+          "b": 126,
+          "g": 225
+        },
+        "sample_count": 351,
+        "target": "class"
+      },
+      "n_features": 33,
+      "n_samples": 351,
+      "name": "ionosphere",
+      "positive_class": "1 (minority)",
+      "sha256": "69c1785365f27d08726a1f2dd83d53bd2aa492b3c7867dbb5919d075022cc3ee",
+      "source": "openml"
+    },
+    {
+      "class_counts": {
+        "0": 689,
+        "1": 42
+      },
+      "file": "data/bestangle25/keel-abalone9-18.joblib",
+      "metadata": {
+        "feature_count": 8,
+        "keel_columns": [
+          "Sex",
+          "Length",
+          "Diameter",
+          "Height",
+          "Whole_weight",
+          "Shucked_weight",
+          "Viscera_weight",
+          "Shell_weight",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/abalone9-18/abalone9-18.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 689,
+          "positive": 42
+        },
+        "sample_count": 731
+      },
+      "n_features": 8,
+      "n_samples": 731,
+      "name": "keel-abalone9-18",
+      "positive_class": "1 (minority)",
+      "sha256": "21abc00f68510c3ccc2d8b4f94b47c23f510595139138507769789ffe20289bd",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 284,
+        "1": 52
+      },
+      "file": "data/bestangle25/keel-ecoli2.joblib",
+      "metadata": {
+        "feature_count": 7,
+        "keel_columns": [
+          "Mcg",
+          "Gvh",
+          "Lip",
+          "Chg",
+          "Aac",
+          "Alm1",
+          "Alm2",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/ecoli2/ecoli2.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 284,
+          "positive": 52
+        },
+        "sample_count": 336
+      },
+      "n_features": 7,
+      "n_samples": 336,
+      "name": "keel-ecoli2",
+      "positive_class": "1 (minority)",
+      "sha256": "7a8669c1b39bd418577982f4b24af645594bc203d45114e90f7f8d3a0ffe5e26",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 301,
+        "1": 35
+      },
+      "file": "data/bestangle25/keel-ecoli3.joblib",
+      "metadata": {
+        "feature_count": 7,
+        "keel_columns": [
+          "Mcg",
+          "Gvh",
+          "Lip",
+          "Chg",
+          "Aac",
+          "Alm1",
+          "Alm2",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/ecoli3/ecoli3.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 301,
+          "positive": 35
+        },
+        "sample_count": 336
+      },
+      "n_features": 7,
+      "n_samples": 336,
+      "name": "keel-ecoli3",
+      "positive_class": "1 (minority)",
+      "sha256": "e7b224d65808d298c364e1345f2357b98d951378028f2c736ab9248ff148a228",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 1023,
+        "1": 43
+      },
+      "file": "data/bestangle25/keel-flare-F.joblib",
+      "metadata": {
+        "feature_count": 11,
+        "keel_columns": [
+          "LargestSpotSize",
+          "SpotDistribution",
+          "Activity",
+          "Evolution",
+          "Prev24Hour",
+          "HistComplex",
+          "BecomeHist",
+          "Area",
+          "C-class",
+          "M-class",
+          "X-class",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/flare-F/flare-F.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 1023,
+          "positive": 43
+        },
+        "sample_count": 1066
+      },
+      "n_features": 11,
+      "n_samples": 1066,
+      "name": "keel-flare-F",
+      "positive_class": "1 (minority)",
+      "sha256": "15a63b95028cdb80ac3d2f180605f548051abe23271fcd9582f59db5fb897a72",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 197,
+        "1": 17
+      },
+      "file": "data/bestangle25/keel-glass2.joblib",
+      "metadata": {
+        "feature_count": 9,
+        "keel_columns": [
+          "RI",
+          "Na",
+          "Mg",
+          "Al",
+          "Si",
+          "K",
+          "Ca",
+          "Ba",
+          "Fe",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/glass2/glass2.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 197,
+          "positive": 17
+        },
+        "sample_count": 214
+      },
+      "n_features": 9,
+      "n_samples": 214,
+      "name": "keel-glass2",
+      "positive_class": "1 (minority)",
+      "sha256": "5c5014f4ea8d5fbf5f6ccb91df42e130d1a96ecfc467414850af15b9d7ba432e",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 185,
+        "1": 29
+      },
+      "file": "data/bestangle25/keel-glass6.joblib",
+      "metadata": {
+        "feature_count": 9,
+        "keel_columns": [
+          "RI",
+          "Na",
+          "Mg",
+          "Al",
+          "Si",
+          "K",
+          "Ca",
+          "Ba",
+          "Fe",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/glass6/glass6.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 185,
+          "positive": 29
+        },
+        "sample_count": 214
+      },
+      "n_features": 9,
+      "n_samples": 214,
+      "name": "keel-glass6",
+      "positive_class": "1 (minority)",
+      "sha256": "a2f9818bbf8403efd506230db0264209c179b8cdbc9da6743b36ac2d4d0adf26",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 4913,
+        "1": 559
+      },
+      "file": "data/bestangle25/keel-page-blocks0.joblib",
+      "metadata": {
+        "feature_count": 10,
+        "keel_columns": [
+          "Height",
+          "Lenght",
+          "Area",
+          "Eccen",
+          "P_black",
+          "P_and",
+          "Mean_tr",
+          "Blackpix",
+          "Blackand",
+          "Wb_trans",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/page-blocks0/page-blocks0.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 4913,
+          "positive": 559
+        },
+        "sample_count": 5472
+      },
+      "n_features": 10,
+      "n_samples": 5472,
+      "name": "keel-page-blocks0",
+      "positive_class": "1 (minority)",
+      "sha256": "aa7392ad20cf5571dcba4b64461dd6fe91ed6e4a1c35f0a8e77071222fb22d2e",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 629,
+        "1": 217
+      },
+      "file": "data/bestangle25/keel-vehicle1.joblib",
+      "metadata": {
+        "feature_count": 18,
+        "keel_columns": [
+          "Compactness",
+          "Circularity",
+          "Distance_circularity",
+          "Radius_ratio",
+          "Praxis_aspect_ratio",
+          "Max_length_aspect_ratio",
+          "Scatter_ratio",
+          "Elongatedness",
+          "Praxis_rectangular",
+          "Length_rectangular",
+          "Major_variance",
+          "Minor_variance",
+          "Gyration_radius",
+          "Major_skewness",
+          "Minor_skewness",
+          "Minor_kurtosis",
+          "Major_kurtosis",
+          "Hollows_ratio",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/vehicle1/vehicle1.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 629,
+          "positive": 217
+        },
+        "sample_count": 846
+      },
+      "n_features": 18,
+      "n_samples": 846,
+      "name": "keel-vehicle1",
+      "positive_class": "1 (minority)",
+      "sha256": "aa5c467de970e01acba6056e8b42925c32bd9084cb59d5de2039b0e4eac4a528",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 1055,
+        "1": 429
+      },
+      "file": "data/bestangle25/keel-yeast1.joblib",
+      "metadata": {
+        "feature_count": 8,
+        "keel_columns": [
+          "Mcg",
+          "Gvh",
+          "Alm",
+          "Mit",
+          "Erl",
+          "real",
+          "Vac",
+          "Nuc",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/yeast1/yeast1.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 1055,
+          "positive": 429
+        },
+        "sample_count": 1484
+      },
+      "n_features": 8,
+      "n_samples": 1484,
+      "name": "keel-yeast1",
+      "positive_class": "1 (minority)",
+      "sha256": "21543124e4aa85cd2e5538ea08c53683a263460bc403324310b5330f9015ca39",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 1321,
+        "1": 163
+      },
+      "file": "data/bestangle25/keel-yeast3.joblib",
+      "metadata": {
+        "feature_count": 8,
+        "keel_columns": [
+          "Mcg",
+          "Gvh",
+          "Alm",
+          "Mit",
+          "Erl",
+          "real",
+          "Vac",
+          "Nuc",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/yeast3/yeast3.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 1321,
+          "positive": 163
+        },
+        "sample_count": 1484
+      },
+      "n_features": 8,
+      "n_samples": 1484,
+      "name": "keel-yeast3",
+      "positive_class": "1 (minority)",
+      "sha256": "5ee85abdeeaf10d5d5f03dcdaaeb8a7afe14114a96890291f62f42b6eb980efe",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 1440,
+        "1": 44
+      },
+      "file": "data/bestangle25/keel-yeast5.joblib",
+      "metadata": {
+        "feature_count": 8,
+        "keel_columns": [
+          "Mcg",
+          "Gvh",
+          "Alm",
+          "Mit",
+          "Erl",
+          "real",
+          "Vac",
+          "Nuc",
+          "Class"
+        ],
+        "keel_url": "https://raw.githubusercontent.com/gykovacs/imbalanced_databases/master/imbalanced_databases/data/yeast5/yeast5.dat",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 1440,
+          "positive": 44
+        },
+        "sample_count": 1484
+      },
+      "n_features": 8,
+      "n_samples": 1484,
+      "name": "keel-yeast5",
+      "positive_class": "1 (minority)",
+      "sha256": "aed20acd553d58e3bfacb031ac45fe1e742297fc35a00b6f24b1502b4a1489b2",
+      "source": "keel"
+    },
+    {
+      "class_counts": {
+        "0": 1032,
+        "1": 77
+      },
+      "file": "data/bestangle25/openml-1068-pc1.joblib",
+      "metadata": {
+        "feature_count": 21,
+        "openml_id": 1068,
+        "openml_name": "pc1",
+        "original_classes": [
+          "False",
+          "True"
+        ],
+        "original_counts": {
+          "False": 1032,
+          "True": 77
+        },
+        "sample_count": 1109,
+        "target": "defects"
+      },
+      "n_features": 21,
+      "n_samples": 1109,
+      "name": "openml-1068-pc1",
+      "positive_class": "1 (minority)",
+      "sha256": "438c89dea27a436b271393067b1e689297b56be63f026b411870d25d3cb13e24",
+      "source": "openml"
+    },
+    {
+      "class_counts": {
+        "0": 2374,
+        "1": 160
+      },
+      "file": "data/bestangle25/openml-1487-ozone-level-8hr.joblib",
+      "metadata": {
+        "feature_count": 72,
+        "openml_id": 1487,
+        "openml_name": "ozone-level-8hr",
+        "original_classes": [
+          "1",
+          "2"
+        ],
+        "original_counts": {
+          "1": 2374,
+          "2": 160
+        },
+        "sample_count": 2534,
+        "target": "Class"
+      },
+      "n_features": 72,
+      "n_samples": 2534,
+      "name": "openml-1487-ozone-level-8hr",
+      "positive_class": "1 (minority)",
+      "sha256": "8aeaa636225764838e7ea86a7a0f747d8df12ceddb4f58187087afc7b39645d8",
+      "source": "openml"
+    },
+    {
+      "class_counts": {
+        "0": 8647,
+        "1": 197
+      },
+      "file": "data/bestangle25/openml-378-ipums_la_99-small.joblib",
+      "metadata": {
+        "feature_count": 59,
+        "one_vs_rest_positive_class": "8",
+        "openml_id": 378,
+        "openml_name": "ipums_la_99-small",
+        "original_classes": [
+          "0",
+          "1",
+          "2",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "original_counts": {
+          "0": 5803,
+          "1": 710,
+          "2": 901,
+          "5": 403,
+          "6": 560,
+          "7": 270,
+          "8": 197
+        },
+        "sample_count": 8844,
+        "target": "movedin"
+      },
+      "n_features": 59,
+      "n_samples": 8844,
+      "name": "openml-378-ipums_la_99-small",
+      "positive_class": "1 (minority)",
+      "sha256": "de0a1b7e3df096351e5eb03bf996fab648fa87f3fe20209d14f39fd1f96ae06d",
+      "source": "openml"
+    },
+    {
+      "class_counts": {
+        "0": 1663,
+        "1": 65
+      },
+      "file": "data/bestangle25/openml-40664-car-evaluation.joblib",
+      "metadata": {
+        "feature_count": 21,
+        "one_vs_rest_positive_class": "2",
+        "openml_id": 40664,
+        "openml_name": "car-evaluation",
+        "original_classes": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "original_counts": {
+          "0": 1210,
+          "1": 384,
+          "2": 65,
+          "3": 69
+        },
+        "sample_count": 1728,
+        "target": "class"
+      },
+      "n_features": 21,
+      "n_samples": 1728,
+      "name": "openml-40664-car-evaluation",
+      "positive_class": "1 (minority)",
+      "sha256": "aaebd7518446433253c1020cd694b2b510c2ec0f186b0d125309c2642adf8e83",
+      "source": "openml"
+    },
+    {
+      "class_counts": {
+        "0": 1546,
+        "1": 53
+      },
+      "file": "data/bestangle25/openml-40691-wine-quality-red.joblib",
+      "metadata": {
+        "feature_count": 11,
+        "one_vs_rest_positive_class": "4",
+        "openml_id": 40691,
+        "openml_name": "wine-quality-red",
+        "original_classes": [
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "original_counts": {
+          "3": 10,
+          "4": 53,
+          "5": 681,
+          "6": 638,
+          "7": 199,
+          "8": 18
+        },
+        "sample_count": 1599,
+        "target": "class"
+      },
+      "n_features": 11,
+      "n_samples": 1599,
+      "name": "openml-40691-wine-quality-red",
+      "positive_class": "1 (minority)",
+      "sha256": "6e1addcf2b32b838441f7f4048a4f87b1723f2db450acfb8238747879adb8ae8",
+      "source": "openml"
+    },
+    {
+      "class_counts": {
+        "0": 111,
+        "1": 97
+      },
+      "file": "data/bestangle25/sonar.joblib",
+      "metadata": {
+        "feature_count": 60,
+        "openml_id": 40,
+        "openml_name": "sonar",
+        "original_classes": [
+          "Rock",
+          "Mine"
+        ],
+        "original_counts": {
+          "Mine": 111,
+          "Rock": 97
+        },
+        "sample_count": 208,
+        "target": "Class"
+      },
+      "n_features": 60,
+      "n_samples": 208,
+      "name": "sonar",
+      "positive_class": "1 (minority)",
+      "sha256": "9a4a30b3694be08a43f599ff66277600eb5b94e070dc18c670387ae54ad4a93f",
+      "source": "openml"
+    },
+    {
+      "class_counts": {
+        "0": 626,
+        "1": 332
+      },
+      "file": "data/bestangle25/tic-tac-toe.joblib",
+      "metadata": {
+        "feature_count": 9,
+        "openml_id": 50,
+        "openml_name": "tic-tac-toe",
+        "original_classes": [
+          "negative",
+          "positive"
+        ],
+        "original_counts": {
+          "negative": 332,
+          "positive": 626
+        },
+        "sample_count": 958,
+        "target": "Class"
+      },
+      "n_features": 9,
+      "n_samples": 958,
+      "name": "tic-tac-toe",
+      "positive_class": "1 (minority)",
+      "sha256": "017e5655bbf9fde2675629bc1426fc15bb003c96089a8b6109a1b2904eeea5d7",
+      "source": "openml"
+    },
+    {
+      "class_counts": {
+        "0": 647,
+        "1": 199
+      },
+      "file": "data/bestangle25/vehicle.joblib",
+      "metadata": {
+        "feature_count": 18,
+        "one_vs_rest_positive_class": "van",
+        "openml_id": 54,
+        "openml_name": "vehicle",
+        "original_classes": [
+          "opel",
+          "saab",
+          "bus",
+          "van"
+        ],
+        "original_counts": {
+          "bus": 218,
+          "opel": 212,
+          "saab": 217,
+          "van": 199
+        },
+        "sample_count": 846,
+        "target": "Class"
+      },
+      "n_features": 18,
+      "n_samples": 846,
+      "name": "vehicle",
+      "positive_class": "1 (minority)",
+      "sha256": "70466c1a64d3597d973cf0edcdd253886abb591767fc5216053e759b217211bd",
+      "source": "openml"
+    }
+  ],
+  "description": "Packaged 25-dataset benchmark pool. The locked KBS primary analysis uses the 18 numerical tasks listed in primary_numeric18; seven category-bearing or otherwise auxiliary tasks are retained separately. Class 1 is the minority/positive class.",
+  "primary_numeric18": [
+    "blood-transfusion",
+    "diabetes",
+    "ecoli",
+    "ionosphere",
+    "openml-1068-pc1",
+    "sonar",
+    "keel-ecoli2",
+    "keel-ecoli3",
+    "keel-glass2",
+    "keel-glass6",
+    "keel-yeast1",
+    "keel-yeast3",
+    "keel-yeast5",
+    "openml-1487-ozone-level-8hr",
+    "openml-40691-wine-quality-red",
+    "keel-page-blocks0",
+    "keel-vehicle1",
+    "vehicle"
+  ],
+  "protocol": {
+    "backbones": [
+      "rf",
+      "extratrees",
+      "bagged_cart"
+    ],
+    "folds": 5,
+    "methods": 22,
+    "packaged_datasets": 25,
+    "primary_datasets": 18,
+    "seeds": [
+      42,
+      44,
+      49
+    ]
+  },
+  "suite": "kbs_numeric18_primary_with_category7_auxiliary"
+}

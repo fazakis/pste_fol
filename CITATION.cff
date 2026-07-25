@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or its reference results, please cite it using this metadata."
+title: "PSTE + Fast Outward Ladder: standalone implementation and reproducibility package"
+type: software
+version: 2.0.0
+date-released: 2026-07-25
+license: MIT
+repository-code: "https://github.com/fazakis/pste_fol"
+authors:
+  - family-names: Fazakis
+    given-names: Nikos
+    orcid: "https://orcid.org/0000-0001-7687-2380"
+  - family-names: Ragos
+    given-names: Omiros
+    orcid: "https://orcid.org/0000-0001-6144-8501"
+  - family-names: Kotsiantis
+    given-names: Sotiris
+    orcid: "https://orcid.org/0000-0002-2247-3082"

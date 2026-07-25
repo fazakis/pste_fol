@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "description": "Locked KBS numerical primary reference and auxiliary nested raw-vote control.",
+  "primary_protocol": {
+    "tasks": 18,
+    "backbones": 3,
+    "seeds": [
+      42,
+      44,
+      49
+    ],
+    "folds": 5,
+    "methods": 22,
+    "fold_method_rows": 17820,
+    "inferential_unit": "task"
+  },
+  "provenance": {
+    "mgvae_repository": "https://github.com/Aiqz/MGVAE.git",
+    "mgvae_commit": "cad386bd2b3a90f6b740cbdf5f0cec8834102ea5",
+    "mgvae_epochs": 200,
+    "note": "The primary metrics combine the locked classical/FOL benchmark with the corrected inductive G-SMOTE refresh and the 200-epoch original-code MGVAE rerun. The nested control is auxiliary and is not a 23rd primary method."
+  },
+  "artifacts": {
+    "auxiliary_nested_raw_vote/REPORT.md": {
+      "bytes": 1111,
+      "sha256": "43b091177801744f5e8f4dd3b60d36be34a558a1dc08ba64a9dd5cfcd10048cd"
+    },
+    "auxiliary_nested_raw_vote/architecture_control_exact_wilcoxon_holm5.csv": {
+      "bytes": 1318,
+      "sha256": "d6327bdf3cc89e6f4b9ecade01ff8078349eab3bdd8b5cbb71e0ffcc4ebcd72a"
+    },
+    "auxiliary_nested_raw_vote/audit_summary.json": {
+      "bytes": 1043,
+      "sha256": "415bf1389fbdc0138d0652f289e084b100b921cae3e8bf9f30fd9c468e61cd10"
+    },
+    "auxiliary_nested_raw_vote/nested_control_task_contrasts.csv": {
+      "bytes": 861,
+      "sha256": "edfd3c7fc84122c80fa64870211872a8869bb73fb3e55dc53bd1517525b14a39"
+    },
+    "auxiliary_nested_raw_vote/selected_alpha_counts.csv": {
+      "bytes": 1034,
+      "sha256": "e43d03f2903f3d8b3c91c8f41c5a72aef1a6dda948f8c1c1e15751524dfe4057"
+    },
+    "auxiliary_nested_raw_vote/task_pr_auc_18x4.csv": {
+      "bytes": 1657,
+      "sha256": "5fc6fa15f70509af4aedfe9b9645f22cddd84da10675602c8979a52d796becd5"
+    },
+    "auxiliary_nested_raw_vote/validated_nested_fold_metrics_810.csv": {
+      "bytes": 1059587,
+      "sha256": "9d5bef61c169b008c3a39e74ed37f58ae001d785bf46a0b579bb38583d029f01"
+    },
+    "auxiliary_nested_raw_vote/validated_nested_predictions.csv.gz": {
+      "bytes": 1334336,
+      "sha256": "078ccec51896469520567d30d30cd7ddbfd5c624ae25d4c928fb66cf3672b876"
+    },
+    "primary/backbone_mean_metrics_66.csv": {
+      "bytes": 12733,
+      "sha256": "279b469950efa6613402f2be16a06603fce00a48eb76a3594417ed35e542e703"
+    },
+    "primary/bagged_cart_dataset_prauc_mean_18x22.csv": {
+      "bytes": 8070,
+      "sha256": "33b0d65b5202b6fcf3b6f2b877ee64d68eff3e738a03a83fdb5ae11b1cb161dc"
+    },
+    "primary/bagged_cart_dataset_prauc_std_18x22.csv": {
+      "bytes": 8478,
+      "sha256": "43f6258eb357db160959a6f49300895a6f13430e50a96bffeb2ea44d782ef204"
+    },
+    "primary/extratrees_dataset_prauc_mean_18x22.csv": {
+      "bytes": 8047,
+      "sha256": "b065d21772a4baa7bcc62b313a011feaf254a5f055a877c0ef7a98ee09c9bbd0"
+    },
+    "primary/extratrees_dataset_prauc_std_18x22.csv": {
+      "bytes": 8529,
+      "sha256": "fe1859186b420869fe0c6e203f028f129b2dc8712e798ce48f03dd9f3a1f772b"
+    },
+    "primary/friedman_summaries.json": {
+      "bytes": 828,
+      "sha256": "98fe8877d0a1d76917e25dadcc64050cfe92466acfc55ff4e00f2b2426d0e6a8"
+    },
+    "primary/primary_all_pairwise_holm_231.csv": {
+      "bytes": 28223,
+      "sha256": "e6b56aea8418db1668445ffa83697c00c7f1df62f2066c7d9b6c4122c247a538"
+    },
+    "primary/primary_matched_wrapper_effects.csv": {
+      "bytes": 2136,
+      "sha256": "7f77bc4df607fc84fe0c76e70309dca0efe80906fa3d3a3f4f9b9c45992d0a7a"
+    },
+    "primary/primary_numeric_task_prauc_18x22.csv": {
+      "bytes": 8069,
+      "sha256": "c1b9397580da43ceb6bc8442594613897b9abfc9560c343eee96ab0b9b65909d"
+    },
+    "primary/primary_numeric_task_ranking_22.csv": {
+      "bytes": 1524,
+      "sha256": "c7e65d2fb9e31dae7bf97f0c959ee25d67819aa61cebde1eea28b58420f653e5"
+    },
+    "primary/primary_pste_fol_pairwise_holm_21.csv": {
+      "bytes": 4622,
+      "sha256": "d782dabb58a4f791afbe59a5a725c15379c432204cee664cb7407bc8d49c4276"
+    },
+    "primary/randomforest_dataset_prauc_mean_18x22.csv": {
+      "bytes": 8068,
+      "sha256": "46fe237c204728dc8549d1f92d8ffbbbfcdb6aa960b6a8e2e8e3c0085a2d7d38"
+    },
+    "primary/randomforest_dataset_prauc_std_18x22.csv": {
+      "bytes": 8523,
+      "sha256": "cc35b74bc961cb04362ca56de074b5e92cc4334ec178cb4b0972032e53f04410"
+    },
+    "primary/validated_fold_metrics_17820.csv": {
+      "bytes": 3111278,
+      "sha256": "b3d17c73a0ff55ef33d8eec928f34873ed5d12e5bc440f79181b2f4ec97d5db1"
+    }
+  }
+}

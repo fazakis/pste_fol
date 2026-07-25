@@ -1,0 +1,67 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Native extensions
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test, lint, type-check, and coverage caches
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local configuration / secrets
+.env
+.env.*
+!.env.example
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.orig
+
+# Generated experiment outputs; keep the directory placeholder.
+outputs/*
+!outputs/.gitkeep
+
+# Pinned external paper implementation fetched by scripts/fetch_mgvae.py.
+external/
+
+# The packaged manuscript datasets and reference artifacts are intentionally tracked:
+#   data/bestangle25/*.joblib
+#   data/manifest.json
+#   reference/primary/*
+#   reference/auxiliary_nested_raw_vote/*

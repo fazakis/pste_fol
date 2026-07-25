@@ -1,0 +1,31 @@
+{
+  "backbones": [
+    "bagged_cart",
+    "extratrees",
+    "rf"
+  ],
+  "datasets": 18,
+  "fixed_equal_max_abs_difference": 0.0,
+  "execution_provenance": "The reference run was distributed only to reduce wall-clock time; the standalone runner is cluster-independent.",
+  "metric_rows": 810,
+  "nested_mean_task_pr_auc": 0.720932005194895,
+  "prediction_rows": 183321,
+  "retained_minus_nested": {
+    "bootstrap_95_high": 0.004297620354310715,
+    "bootstrap_95_low": 0.0005264526981426551,
+    "contrast": "retained_2to1_local_minus_nested_tuned_raw",
+    "first_mean_pr_auc": 0.723399719029844,
+    "holm_p_5": 0.007720947265625,
+    "losses_first": 2,
+    "mean_delta_first_minus_second": 0.0024677138349491696,
+    "median_delta_first_minus_second": 0.0023490700372511553,
+    "rank_biserial": 0.7192982456140351,
+    "second_mean_pr_auc": 0.720932005194895,
+    "ties": 0,
+    "wilcoxon_exact_p": 0.0055999755859375,
+    "wilcoxon_nonzero_n": 18,
+    "wins_first": 16
+  },
+  "selected_alpha_median": 0.4,
+  "selected_alpha_mode": 0.35
+}

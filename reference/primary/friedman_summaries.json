@@ -1,0 +1,28 @@
+{
+  "numeric_task": {
+    "analysis": "numeric_task_18x22",
+    "blocks": 18,
+    "methods": 22,
+    "degrees_of_freedom": 21,
+    "friedman_chi_square": 204.59288537549423,
+    "friedman_p_value": 4.512520352272491e-32,
+    "kendall_w": 0.5412510195118895,
+    "top_method": "pste_fol",
+    "top_mean_pr_auc": 0.723399719029844,
+    "top_average_rank": 4.277777777777778,
+    "top_eight_all_pste": true
+  },
+  "source_family": {
+    "analysis": "numeric_source_family_12x22",
+    "blocks": 12,
+    "methods": 22,
+    "degrees_of_freedom": 21,
+    "friedman_chi_square": 136.11462450592876,
+    "friedman_p_value": 7.331547557157499e-19,
+    "kendall_w": 0.5401373988330507,
+    "top_method": "pste_fol",
+    "top_mean_pr_auc": 0.6864321125066289,
+    "top_average_rank": 4.083333333333333,
+    "top_eight_all_pste": true
+  }
+}
